@@ -55,7 +55,7 @@ justify-content: space-between;
 }
 @media screen and (max-width:768px) {
   .footer {
-    width: 130.5%;
+    width: 131%;
     display: flex;
     align-items: center;
     justify-content: center;
