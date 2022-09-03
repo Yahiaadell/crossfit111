@@ -1,15 +1,11 @@
 import React, { useState } from 'react'
 import { testimonialsData } from '../../data/testimonialsData'
 import './Coaches.css'
-import leftArrow from "../../assets/leftArrow.png"
-import rightArrow from "../../assets/rightArrow.png"
 import { motion } from 'framer-motion'
-import { Link } from 'react-scroll'
 
 const Coaches = () => {
 const transition = {type: "spring", duration: 3};
- const [selected, setSelected] = useState(0);
- const tLength = testimonialsData.length;
+ const [selected] = useState(0);
 
   return (
     <div className="coaches" id="coaches">

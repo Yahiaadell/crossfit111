@@ -1,9 +1,6 @@
 import React from 'react'
 import './Header.css'
-import KAREEM from '../../assets/KAREEM.png'
-import KAREEM2 from '../../assets/KAREEM2.png'
 import { Link } from 'react-scroll'
-import CrossFit from '../../assets/CrossFit9.png'
 import CrossFit2 from "../../assets/CrossFit2.png"
 import Bars from '../../assets/bars.png'
 import { useState } from 'react'
