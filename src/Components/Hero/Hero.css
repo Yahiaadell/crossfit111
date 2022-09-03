@@ -94,7 +94,7 @@ justify-content: center;
 @media screen and (max-width: 768px)
 {
   .hero{
-    width: 155.3%;
+    width: 148%;
     flex-direction: column;
   }
 
