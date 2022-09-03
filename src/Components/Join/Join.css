@@ -1,0 +1,293 @@
+.join-h1 {
+ display: flex;
+ justify-content: space-between;
+}
+
+
+.Join {
+ background-color: white;
+ color:black;
+ width: 100%;
+}
+
+.joiniso {
+ width: 100%;
+ padding-top: 30px;
+ padding-bottom:30px;
+ 
+}
+
+
+.join-h {
+ text-align: center;
+ font-size: 4rem;
+ justify-content: center;
+ width: 100%;
+ overflow: inherit;
+ text-transform: uppercase;
+ gap: 1.5rem;
+ padding-top: 20px;
+
+}
+
+.join-h>span:nth-child(1) {
+ font-weight: bold;
+
+}
+
+.join-h>span:nth-child(2) {
+ color: black;
+ font-weight: bold;
+
+}
+
+.join-h>span:nth-child(3) {
+ font-weight: bold;
+
+}
+
+.join-h>span:nth-child(4) {
+ color: white;
+ font-weight: bold;
+
+}
+
+
+
+.join-h>hr {
+ border: 2px solid var(--cf-blue);
+ width: 30rem;
+}
+
+.contact-address>h3 {
+ font-size: 1.5rem;
+ color: black;
+
+}
+
+.contact-no {
+ text-decoration: none;
+ color: var(--cf-blue);
+ margin-top: 0px;
+ font-size: 1.5rem;
+}
+
+.contact-no:hover {
+ text-decoration: underline;
+ transition: 0.4s all;
+ opacity: 70%;
+}
+
+
+.left-join {
+ width: 100%;
+ color: #fff;
+ text-align: center;
+}
+
+.right-join {
+ position: relative;
+ text-align: center;
+ color: #fff
+}
+
+.join-h1 {
+ margin-top: 100px;
+}
+
+.join-text {
+ margin: 50px 50px;
+ color: white;
+ text-align: center;
+}
+
+.contact-address {
+ font-size: 1rem;
+}
+
+.email>h3 {
+ font-size: 1.5rem;
+ color: black;
+}
+
+
+.email>a {
+ color: var(--cf-blue);
+ font-size: 1.5rem;
+ text-decoration: none;
+}
+
+.email>a:hover {
+ opacity: 70%;
+ transition: 0.4s all;
+ text-decoration: underline;
+}
+
+.contact-inputs {
+ display: flex;
+ gap: 1rem;
+ justify-content: space-between;
+width: 100%;
+}
+
+form {
+ margin-top: 100px;
+ margin-bottom: 50px;
+ padding-left:50px ;
+ padding-right: 50px;
+}
+
+input {
+ width:18rem;
+ padding: 15px 15px;
+ background-color: black;
+ border: 3px solid var(--cf-blue);
+ border-radius: 50px;
+ color: #fff;
+ background: -internal- blueviolet;
+}
+
+.description {
+ display: flex;
+ justify-content: center;
+}
+
+.plans-blurz-1 {
+ width: 32rem;
+ height: 23rem;
+ top: 140rem;
+ left: 0rem;
+}
+
+.plans-blurz-2 {
+ width: 32rem;
+ height: 23rem;
+ top: 140rem;
+ right: 0rem;
+}
+
+.submit-button {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.sub-button {
+ border-radius: 50px;
+ padding: 10px 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: var(--cf-blue);
+ color: white;
+ cursor: pointer;
+ border: 0;
+ margin-top: 2rem;
+ font-size: 1rem;
+}
+.sub-button:hover {
+ opacity: 90%;
+ transition: all 0.5s;
+ border: 3px solid var(--cf-blue);
+ background-color: black;
+}
+
+.contact-us {
+ color: black;
+ font-size: 1.2rem;
+ opacity: 80%;
+ margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+.join {
+ width: 148.3%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+ 
+ .join-h {
+  font-size: xx-large;
+
+ }
+ .joininso {
+width: 100%;
+ }
+ 
+
+ .contact-us {
+  font-size: x-large;
+ }
+
+
+
+ .join-h>hr {
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+ }
+
+ .contact-inputs {
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .submit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .sub-button {
+  display: flex;
+  border-radius: 50px;
+  padding: 10px 40px;
+  background-color: var(--cf-blue);
+  color: black;
+  cursor: pointer;
+  border: 0;
+  margin-top: 30px;
+ }
+
+ .join-h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .contact-address>h3 {
+  font-size: x-large;
+  text-align: center;
+ }
+
+ .contact-no {
+  font-size: x-large;
+ }
+
+ .email>a {
+  font-size: 19px
+ }
+
+ .left-join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .right-join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+}

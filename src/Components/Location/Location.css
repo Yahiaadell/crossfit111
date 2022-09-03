@@ -1,0 +1,208 @@
+.Location {
+ background-color: #000;
+ padding-top: 30px;
+ padding-bottom: 30px;
+
+}
+.lolezo {
+ width: 100%;
+}
+
+.sec-h {
+ display: flex;
+ justify-content: space-between;
+ margin-top: 20px;
+
+}
+
+
+.loc-h {
+ padding-top:20px;
+ text-align: center;
+ font-size: 4rem;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+ font-weight: bold;
+ color: #fff;
+}
+
+
+
+
+.left-loc {
+ width: 50%;
+ margin: 0 0;
+}
+
+.right-loc {
+ width: 50%;
+ position: relative;
+ background-color: var(--golds);
+ margin: 0 0;
+ box-sizing: border-box;
+ height: 450px;
+ color: #000;
+ padding: 50px 50px;
+ font-size: 2.8rem;
+}
+
+.right-loc {
+ background-image: url("../../assets/CrossFit6.JPG");
+ background-size: contain;
+ background-repeat: no-repeat;
+ color: #fff;display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.overlay {
+ content: "";
+ background: rgba(0, 0, 0, 0.7);
+ position: absolute;
+ bottom: 0;
+ top: 0;
+ left: 0;
+ right: 0;
+}
+
+
+.sec-h {
+ margin-top: 100px;
+}
+
+.loc-text {
+ margin-top: 70px;
+ color: white;
+ font-size: 1.4rem;
+ text-transform: capitalize;
+ width: 80%;
+ font-weight: normal;
+ line-height: 1.5;
+}
+
+.loc-info {
+ font-weight: bold;
+ text-transform: uppercase;
+ padding: 50px 50px 100px 100px;
+ padding-left: 150px;
+
+}
+
+.locatiso {
+ margin-bottom: 0;
+}
+.locatiso>hr {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: 2px solid var(--cf-blue);
+ width: 12rem;
+}
+
+.location-ica {
+ margin-top: 70px;
+ color: var(--cf-blue);
+ font-size: 1.4rem;
+ text-transform: capitalize;
+ width: 100%;
+ font-weight: normal;
+ line-height: 1.5;
+ cursor: pointer;
+ text-decoration: none;
+
+}
+
+.location-ica>a {
+ margin-top: 40px;
+ color: var(--cf-blue);
+ font-size: 1.4rem;
+ text-transform: capitalize;
+ width: 100%;
+ font-weight: bold;
+ line-height: 1.5;
+ cursor: pointer;
+ text-decoration: none;
+
+}
+
+.location-ica:hover {
+ opacity: 75%;
+ transition: 0.5s all;
+ text-decoration: underline;
+}
+.location-h {
+ font-size: 3rem;
+ text-transform: uppercase;
+}
+
+@media screen and (max-width:768px) {
+ .Location {
+  width: 148.3%;
+ }
+
+ .loc-h {
+  width: 100%;
+ }
+
+ .sec-h {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6rem
+ }
+
+ .left-loc {
+  width: 100%;
+ }
+
+ .right-loc {
+  width: 100%;
+  font-size: x-large;
+ }
+
+ .loc-text {
+  margin-top: 20px;
+ }
+
+ .location-ica {
+  margin-top: 20px
+ }
+
+ .right-loc {
+  background-image: url("../../assets/CrossFit6.JPG");
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+ }
+
+ .locatiso>hr {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  border: 2px solid var(--cf-blue);
+  width: 15rem;
+ }
+
+ .loc-h {
+  font-size: 3rem;
+ }
+
+ .location-ica {
+  width: 100%;
+ }
+
+ .locatiso {
+  width: 100%;
+ }
+
+ .loc-info {
+padding-top: 9rem;
+ }
+
+}
