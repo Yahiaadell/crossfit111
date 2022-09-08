@@ -16,16 +16,16 @@ const Hero = () => {
           <div className="hero-title">
             <div className="hero-maint">Failure is not an option! </div>
             <div className="hero-buttons">
-              <button>
                 <Link to="join" spy={true} smooth={true}>
+              <button  className="hero-btn">
                   Get Started
-                </Link>
               </button>
-              <button>
+                </Link>
                 <Link to="about" spy={true} smooth={true}>
+              <button className="hero-btn">
                   Learn More
-                </Link>
               </button>
+                </Link>
             </div>
           </div>
         </div>
