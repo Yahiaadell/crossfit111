@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="main-hero">
           <Header />
           <div className="hero-title">
-            <div className="hero-maint">Failure is not an option! </div>
+            {/* <div className="hero-maint">Failure is not an option! </div> */}
             <div className="hero-buttons">
                 <Link to="join" spy={true} smooth={true}>
               <button  className="hero-btn">
