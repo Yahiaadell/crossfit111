@@ -60,13 +60,17 @@ const Header = () => {
     </div>
     
     )}
-    <button className="join-now">
       <Link
       to='join'
       spy={true}
-      smooth={true}>
-     Join Now</Link>
+      smooth={true}
+      >
+    <button className="join-now">
+      
+     Join Now
     </button>
+    </Link>
+    
     
     </div>
   )
