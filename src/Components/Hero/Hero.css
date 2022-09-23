@@ -1,9 +1,9 @@
-/* .hero {
+.hero {
  background-color: var(--appColor);
  height: 100%;
  width: 100%;
 
-} */
+}
 .main-hero {
  width: 100%;
  z-index: 9;
