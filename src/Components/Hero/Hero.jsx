@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="hero" id="home">
       <div className="main-vid">
-        <video className="vid-trial"src={CrossFitVid} autoPlay loop muted />
+        <video className="vid-trial" src={CrossFitVid} autoPlay loop muted />
         
 
         <div className="main-hero">
