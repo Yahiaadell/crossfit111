@@ -2,13 +2,13 @@ import React from "react";
 import Header from "../Header/Header";
 import "./Hero.css";
 import { Link } from "react-scroll";
-import CrossFitVid from "../../assets/CrossFitVid.mp4"
+import HeroVideo from "../../assets/CrossFitVid.mp4"
 
 const Hero = () => {
   return (
     <div className="hero" id="home">
       <div className="main-vid">
-        <video className="vid-trial" src={CrossFitVid} autoPlay loop muted />
+        <video className="vid-trial" src={HeroVideo} autoPlay loop muted />
         
 
         <div className="main-hero">
