@@ -19,20 +19,19 @@ const Footer = () => {
      </div>
      <div className="mid-img">
      <div className="mid-f">
-      <button>
+      
       <div className="instagram">
-      <a href="https://www.instagram.com/crossfit111_/?hl=en" target="_blank" rel = "noreferrer">
+      <a href="https://www.instagram.com/crossfit111._/?hl=en" target="_blank" rel = "noreferrer">
       <img src={Instagram} alt="" />
       </a>
       </div>
-      </button>
-      <button>
+      
+      
       <div className="facebook">
-      <a href="https://facebook.com/" target='_blank' rel = "noreferrer">
+      <a href="https://www.facebook.com/CrossFit-111-108824671970596/" target='_blank' rel = "noreferrer">
       <img src={Facebook} alt="" />
       </a>
       </div>
-      </button>
       </div>
 
      </div>

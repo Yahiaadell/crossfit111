@@ -68,7 +68,7 @@ justify-content: center;
  margin-top:30px;
 }
 
-.hero-buttons > button {
+.hero-btn {
   background: var(--cf-blue);
   color:#fff;
   border:0;
@@ -79,7 +79,7 @@ justify-content: center;
   width: 12rem;
  font-size: 0.9rem;
 }
-.hero-buttons>button:hover {
+.hero-btn:hover {
  background: #fff;
  color: #000;
  border: 0;
@@ -94,7 +94,7 @@ justify-content: center;
 @media screen and (max-width: 768px)
 {
   .hero{
-    width: 148.3%;
+    width: 154%;
     flex-direction: column;
   }
 

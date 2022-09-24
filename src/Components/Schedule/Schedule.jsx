@@ -1,5 +1,6 @@
 import React from 'react'
 import './Schedule.css'
+import Sch from "../../assets/Sch.jpeg"
 
 
 const Schedule = () => {
@@ -12,6 +13,7 @@ const Schedule = () => {
      <hr />
      </div>
      <div className="schedule-text">
+      <img src={Sch} alt="" className='CrSche'/>
      </div>
     </div>
   )
