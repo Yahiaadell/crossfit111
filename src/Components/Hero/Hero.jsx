@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import "./Hero.css";
 import { Link } from "react-scroll";
-import CFvid from "../../assets/CrossFitVid.mp4"
+import CFvid from "../../assets/CrossFit1.MP4"
 
 const Hero = () => {
   return (
