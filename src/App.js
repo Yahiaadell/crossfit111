@@ -13,7 +13,6 @@ function App() {
           <Hero />
           <About />
           <Coaches />
-          <Schedule />
           <Location />
           <Join />
           <Footer />
